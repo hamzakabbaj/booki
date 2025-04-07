@@ -25,12 +25,14 @@
       <header>
         <img src="./images/logo/Booki.png" alt="Logo de Booki" />
         <nav>
-          <div class="nav-link">
-            <a href="#">Hébergements</a>
-          </div>
-          <div class="nav-link">
-            <a href="#">Activités</a>
-          </div>
+          <a class="nav-link" href="#">
+            <span class="nav-link-bar"></span>
+            <span class="nav-link-text">Hébergements</span>
+          </a>
+          <a class="nav-link" href="#">
+            <span class="nav-link-bar"></span>
+            <span class="nav-link-text">Activités</span>
+          </a>
         </nav>
       </header>
       <main>
@@ -47,26 +49,31 @@
             <input type="text" value="Marseille, France" />
 
             <button type="submit" class="search-button">
-              <span>Rechercher</span>
+              <span class="search-button-text">Rechercher</span>
+              <i class="fa-solid fa-search" aria-hidden="true"></i>
             </button>
           </div>
           <div class="search-filters">
-            <h2>Filtres</h2>
-            <div class="search-filter-element">
-              <img src="./images/icons/argent.png" alt="Icone 1" />
-              <h3>Economique</h3>
+            <div class="search-filters-title">
+              <h2>Filtres</h2>
             </div>
-            <div class="search-filter-element">
-              <img src="./images/icons/humain.png" alt="Icone 2" />
-              <h3>Familial</h3>
-            </div>
-            <div class="search-filter-element">
-              <img src="./images/icons/coeur.png" alt="Icone 3" />
-              <h3>Romantique</h3>
-            </div>
-            <div class="search-filter-element">
-              <img src="./images/icons/feu.png" alt="Icone 4" />
-              <h3>Nos pépites</h3>
+            <div class="search-filters-elements">
+              <div class="search-filter-element">
+                <img src="./images/icons/argent.png" alt="Icone 1" />
+                <h3>Economique</h3>
+              </div>
+              <div class="search-filter-element">
+                <img src="./images/icons/humain.png" alt="Icone 2" />
+                <h3>Familial</h3>
+              </div>
+              <div class="search-filter-element">
+                <img src="./images/icons/coeur.png" alt="Icone 3" />
+                <h3>Romantique</h3>
+              </div>
+              <div class="search-filter-element">
+                <img src="./images/icons/feu.png" alt="Icone 4" />
+                <h3>Nos pépites</h3>
+              </div>
             </div>
           </div>
           <div class="search-results-count">
