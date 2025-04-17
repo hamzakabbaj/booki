@@ -17,12 +17,17 @@ body {
   display: flex;
   justify-content: center;
   margin: 0;
+  width: 100%;
+}
+
+html {
+  width: 100%;
 }
 
 .main-container {
   width: 100%;
   max-width: 1440px;
-  padding: 0 50px;
+  padding: 0px;
   box-sizing: border-box;
 }
 
@@ -631,6 +636,6 @@ footer li {
   }
 
   footer ul {
-    width: 100%;
+    width: calc(100% - 40px);
   }
 }
