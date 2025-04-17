@@ -18,10 +18,12 @@ body {
   justify-content: center;
   margin: 0;
   width: 100%;
+  min-width: 320px;
 }
 
 html {
   width: 100%;
+  min-width: 320px;
 }
 
 .main-container {
@@ -29,6 +31,7 @@ html {
   max-width: 1440px;
   padding: 0px;
   box-sizing: border-box;
+  margin: 0 auto;
 }
 
 a {
@@ -183,6 +186,7 @@ span.nav-link-bar {
 /* --------------------- Search Section --------------------- */
 body {
   padding: 0px 50px;
+  width: calc(100% - 100px);
 }
 main {
   display: flex;
@@ -498,12 +502,15 @@ footer li {
     font-size: 13px;
   }
 }
+@media (min-width: 768px) and (max-width: 1024px) {
+}
 
 /* Small devices (phones, less than 768px) */
-@media (max-width: 767.98px) {
+@media (max-width: 768px) {
   body,
   .main-container {
     padding: 0px;
+    width: 100%;
   }
   header {
     flex-direction: column;
