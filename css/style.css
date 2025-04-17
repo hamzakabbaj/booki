@@ -257,12 +257,13 @@ i.fa-solid.fa-search {
   border-radius: 15px 0px 0px 15px;
 }
 
-.search-bar-icon img {
+.search-bar-icon i {
   position: relative;
   width: 14px;
   height: 18px;
   top: 15px;
   left: 18px;
+  color: #000000;
 }
 
 .search-filters {
@@ -318,9 +319,8 @@ span.search-results-count-icon {
   align-items: center;
 }
 
-.search-results-count-icon img {
-  width: 4px;
-  height: 10px;
+.search-results-count-icon i {
+  font-size: 12px;
 }
 
 /* --------------------- Hebergements --------------------- */
@@ -501,8 +501,6 @@ footer li {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
-}
-@media (min-width: 768px) and (max-width: 1024px) {
 }
 
 /* Small devices (phones, less than 768px) */
