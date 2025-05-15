@@ -387,6 +387,7 @@ section.hebergements {
 
 .show-more-btn h3 {
   font-size: 18px;
+  margin: 0px;
 }
 
 /* -------------------------- Acitivtés --------------------------- */
@@ -501,6 +502,10 @@ footer li {
   .populaires-cards .card-subtitle {
     font-size: 13px;
   }
+
+  .activity-card img {
+    height: 200px;
+  }
 }
 
 /* Small devices (phones, less than 768px) */
@@ -541,6 +546,14 @@ footer li {
 
   .search-filters-elements {
     gap: 10px;
+  }
+
+  .search-filters-elements h3 {
+    font-size: 14px;
+  }
+
+  .search-filter-element {
+    flex: 1;
   }
 
   i.fa-solid.fa-search {
