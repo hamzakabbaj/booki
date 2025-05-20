@@ -554,6 +554,7 @@ footer li {
 
   .search-filter-element {
     flex: 1;
+    max-width: 120px;
   }
 
   i.fa-solid.fa-search {
